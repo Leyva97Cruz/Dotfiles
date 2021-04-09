@@ -1,0 +1,6 @@
+# Distribucion del teclado
+setxkbmap latam &
+
+# Wallpaper
+feh --bg-fill /home/aaron/.Wallpapers/02.png &
+

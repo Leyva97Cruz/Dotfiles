@@ -1,0 +1,32 @@
+# *** Folders . #
+.ImgGrub*
+.Wallpapers*
+.cache*
+.gnupg*
+.icons*
+.local*
+.pki*
+.thumbnails
+.vscode-oss*
+
+# *** Folders #
+Descargas*
+Documentos*
+Imágenes*
+snap*
+
+# *************************** #
+# *************************** #
+
+# >>> files . #
+.Xauthority
+.bash_history
+.bash_logout
+.bash_profile
+.dmrc
+.fehbg
+.gitconfig
+.gtkrc-2.0
+.viminfo
+.xsession-errors
+.xsession-errors.old
