@@ -47,7 +47,10 @@ keys = [Key(key[0], key[1], *key[2:]) for key in[
 
     # Terminal
     ([mod], "Return", lazy.spawn("alacritty")),
-    
+
+    # Doom Emacs
+    ([mod], "d", lazy.spawn("emacs")),
+
     # Rofi
     ([mod], "r", lazy.spawn(runApps)),  # run apps
     ([mod, "shift"], "r", lazy.spawn(runNav)),  # navigation window

@@ -4,7 +4,7 @@ set fish_greeting ""
 
 alias grep "grep --color=auto"
 alias cat="bat --paging never"
-alias ls "exa --group-directories-first"
+alias ls="exa --group-directories-first --icons --git -h"
 alias tree "exa -T"
 
 # Agnoster
@@ -26,3 +26,7 @@ set SPACEFISH_HOST_SHOW always
 set SPACEFISH_HOST_COLOR cyan
 set SPACEFISH_DIR_COLOR blue
 set SPACEFISH_PROMPT_ORDER time user host dir git package node ruby golang php rust haskell julia elixir docker aws venv conda pyenv dotnet kubecontext exec_time line_sep battery vi_mode jobs exit_code char  
+
+# Starship
+#
+starship init fish | source

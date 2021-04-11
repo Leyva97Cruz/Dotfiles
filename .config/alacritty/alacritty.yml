@@ -103,7 +103,8 @@ scrolling:
 font:
   # Normal (roman) font face
   normal:
-    family: JetBrainsMono Nerd Font
+    family: SauceCodePro Nerd Font
+    #family: JetBrainsMono Nerd Font
     #family: DaddyTimeMono Nerd Font Mono
     #family: SpaceMono Nerd Font Mono
     # The `style` can be specified to pick a specific face.
@@ -111,7 +112,8 @@ font:
 
   # Bold font face
   bold:
-    family: JetBrainsMono Nerd Font
+    family: SauceCodePro Nerd Font
+    #family: JetBrainsMono Nerd Font
     #family: DaddyTimeMono Nerd Font Mono
     #family: SpaceMono Nerd Font Mono
     # The `style` can be specified to pick a specific face.
@@ -119,7 +121,8 @@ font:
 
   # Italic font face
   italic:
-    family: JetBrainsMono Nerd Font
+    family: SauceCodePro Nerd Font
+    #family: JetBrainsMono Nerd Font
     #family: DaddyTimeMono Nerd Font Mono
     #family: SpaceMono Nerd Font Mono
     # The `style` can be specified to pick a specific face.
@@ -127,7 +130,8 @@ font:
 
   # Bold italic font face
   bold_italic:
-    family: JetBrainsMono Nerd Font
+    family: SauceCodePro Nerd Font
+    #family: JetBrainsMono Nerd Font
     #family: DaddyTimeMono Nerd Font Mono
     #family: SpaceMono Nerd Font Mono
     # The `style` can be specified to pick a specific face.
@@ -234,7 +238,7 @@ colors:
 # Window opacity as a floating point number from `0.0` to `1.0`.
 # The value `0.0` is completely transparent and `1.0` is opaque.
 # background_opacity: 1.0
-background_opacity: 0.80
+background_opacity: 1.0
 
 selection:
   semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"

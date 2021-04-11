@@ -3,11 +3,13 @@
 .Wallpapers*
 .cache*
 .gnupg*
+.emacs.d*
 .icons*
 .local*
 .pki*
 .thumbnails
 .vscode-oss*
+
 
 # *** Folders #
 Descargas*
