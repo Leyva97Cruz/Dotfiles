@@ -27,6 +27,7 @@ snap*
 .bash_profile
 .dmrc
 .fehbg
+.wget-hsts
 .gitconfig
 .gtkrc-2.0
 .viminfo

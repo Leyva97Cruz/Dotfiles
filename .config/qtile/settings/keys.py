@@ -2,7 +2,7 @@
 
 from libqtile.config import Key
 from libqtile.lazy import lazy
-from settings.rofi import runApps, runNav
+from settings.apps import Terminal, Explorer, Emacs, RofiApps, RofiNav, Browser, ScreenComplete, ScreenSelect
 
 mod = "mod4"
 
@@ -46,24 +46,24 @@ keys = [Key(key[0], key[1], *key[2:]) for key in[
     # ----------- Apps -------------
 
     # Terminal
-    ([mod], "Return", lazy.spawn("alacritty")),
+    ([mod], "Return", lazy.spawn(Terminal)),
 
     # Doom Emacs
-    ([mod], "d", lazy.spawn("emacs")),
+    ([mod], "d", lazy.spawn(Emacs)),
 
     # Rofi
-    ([mod], "r", lazy.spawn(runApps)),  # run apps
-    ([mod, "shift"], "r", lazy.spawn(runNav)),  # navigation window
+    ([mod], "r", lazy.spawn(RofiApps)),  # run apps
+    ([mod, "shift"], "r", lazy.spawn(RofiNav)),  # navigation window
 
     # Browser
-    ([mod],"b", lazy.spawn("brave")),
+    ([mod],"b", lazy.spawn(Browser)),
     
     # Filed explorer
-    ([mod],"e", lazy.spawn("thunar")),
+    ([mod],"e", lazy.spawn(Explorer)),
 
     # Screeshot
-    ([mod],"s", lazy.spawn("scrot -e 'mv $f ~/Imagenes/'")),
-    ([mod, "shift"],"s", lazy.spawn("scrot -s -e 'mv $f ~/Imagenes/'")),
+    ([mod],"s", lazy.spawn(ScreenComplete)),
+    ([mod, "shift"],"s", lazy.spawn(ScreenSelect)),
 
     # ------------ Hardware Configs ------------
 

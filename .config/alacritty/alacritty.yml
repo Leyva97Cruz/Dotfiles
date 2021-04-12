@@ -103,7 +103,8 @@ scrolling:
 font:
   # Normal (roman) font face
   normal:
-    family: SauceCodePro Nerd Font
+    family: FiraCode Nerd Font
+    #family: SauceCodePro Nerd Font
     #family: JetBrainsMono Nerd Font
     #family: DaddyTimeMono Nerd Font Mono
     #family: SpaceMono Nerd Font Mono
@@ -112,7 +113,8 @@ font:
 
   # Bold font face
   bold:
-    family: SauceCodePro Nerd Font
+    family: FiraCode Nerd Font
+    #family: SauceCodePro Nerd Font
     #family: JetBrainsMono Nerd Font
     #family: DaddyTimeMono Nerd Font Mono
     #family: SpaceMono Nerd Font Mono
@@ -121,7 +123,8 @@ font:
 
   # Italic font face
   italic:
-    family: SauceCodePro Nerd Font
+    family: FiraCode Nerd Font
+    #family: SauceCodePro Nerd Font
     #family: JetBrainsMono Nerd Font
     #family: DaddyTimeMono Nerd Font Mono
     #family: SpaceMono Nerd Font Mono
@@ -130,7 +133,8 @@ font:
 
   # Bold italic font face
   bold_italic:
-    family: SauceCodePro Nerd Font
+    family: FiraCode Nerd Font
+    #family: SauceCodePro Nerd Font
     #family: JetBrainsMono Nerd Font
     #family: DaddyTimeMono Nerd Font Mono
     #family: SpaceMono Nerd Font Mono
@@ -196,7 +200,7 @@ colors:
   # Indexed Colors
   #
   # The indexed colors include all colors from 16 to 256.
-  # When these are not set, they're filled with sensible defaults.
+ # When these are not set, they're filled with sensible defaults.
   #
   # Example:
   #   `- { index: 16, color: '0xff00ff' }`
