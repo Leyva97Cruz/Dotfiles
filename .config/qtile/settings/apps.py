@@ -31,3 +31,7 @@ ScreenComplete = "scrot -e 'mv $f ~/Imágenes'"
 # screenshot
 #
 ScreenSelect = "scrot -s -e 'mv $f ~/Imágenes'"
+
+# Design pcb schematic
+#
+Kicad = "kicad"

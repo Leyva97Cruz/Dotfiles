@@ -2,7 +2,7 @@
 
 from libqtile.config import Key
 from libqtile.lazy import lazy
-from settings.apps import Terminal, Explorer, Emacs, RofiApps, RofiNav, Browser, ScreenComplete, ScreenSelect
+from settings.apps import Terminal, Explorer, Emacs, RofiApps, RofiNav, Browser, ScreenComplete, ScreenSelect, Kicad
 
 mod = "mod4"
 
@@ -50,6 +50,9 @@ keys = [Key(key[0], key[1], *key[2:]) for key in[
 
     # Doom Emacs
     ([mod], "d", lazy.spawn(Emacs)),
+
+    # Kicad
+    ([mod], "k", lazy.spawn(Kicad)),
 
     # Rofi
     ([mod], "r", lazy.spawn(RofiApps)),  # run apps

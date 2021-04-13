@@ -4,3 +4,13 @@ setxkbmap latam &
 # Wallpaper
 feh --bg-fill /home/aaron/.Wallpapers/02.png &
 
+# Automount USB
+udiskie -t &
+
+#Wifi Manager
+nm-applet &
+
+xsettingsd &
+
+#bluetooth
+#blueman-applet &

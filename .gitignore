@@ -2,7 +2,10 @@
 .ImgGrub*
 .Wallpapers*
 .cache*
+.cabal*
 .gnupg*
+.ghc*
+.ghcup*
 .emacs.d*
 .icons*
 .local*

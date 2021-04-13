@@ -8,7 +8,7 @@ from settings.keys import mod, keys
 Icons:
     Icon    Name        Hex
            Browser     \uf269
-           Python      \ue235
+    ﬙       mdi-chip    \ufb19
            Terminal    \ue795
            Code        \uf121
            settings    \ue615
@@ -19,7 +19,7 @@ Icons:
 """
 
 groups = [Group(i) for i in [
-    " \uf269 ", " \ue235 ", " \ue795 "," \uf121 ", " \ue615 ", " \uf74a ", " \uf7e8 ", " \uf03d ", " \uf827 "
+    " \uf269 ", " \ufb19 ", " \ue795 "," \uf121 ", " \ue615 ", " \uf74a ", " \uf7e8 ", " \uf03d ", " \uf827 "
 ] ]
 
 for i, group in enumerate(groups):

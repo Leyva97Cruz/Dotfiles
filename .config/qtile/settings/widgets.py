@@ -67,6 +67,8 @@ primary_widgets = [
 
     separator(),
 
+    widget.Systray(background=colors['dark'], padding=5),
+
     powerline('color4', 'dark'),
 
     icon(bg="color4", text=' '), # Icon: nf-fa-download
@@ -99,9 +101,6 @@ primary_widgets = [
 
     widget.Clock(**base(bg='color1'), format='%d/%m/%Y - %I:%M %p'),
 
-    powerline('dark', 'color1'),
-
-    widget.Systray(background=colors['dark'], padding=5),
 ]
 
 secondary_widgets = [
