@@ -1,38 +1,9 @@
-# *** Folders . #
-.ImgGrub*
-.Wallpapers*
-.cache*
-.cabal*
-.gnupg*
-.ghc*
-.ghcup*
-.emacs.d*
-.icons*
-.local*
-.pki*
-.thumbnails
-.vscode-oss*
-
-
-# *** Folders #
-Descargas*
-Documentos*
-Imágenes*
-snap*
-
-# *************************** #
-# *************************** #
-
-# >>> files . #
-.Xauthority
-.bash_history
-.bash_logout
-.bash_profile
-.dmrc
-.fehbg
-.wget-hsts
-.gitconfig
-.gtkrc-2.0
-.viminfo
-.xsession-errors
-.xsession-errors.old
+/*
+!.config
+!.vim
+!.bashrc
+!.gitignore
+!.vimrc
+!.xprofile
+!.xmonad
+!README.md

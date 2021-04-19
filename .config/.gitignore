@@ -1,23 +1,14 @@
-# Folders #
-chromium*
-Code - OSS*
-code-oss*
-dconf*
-Electron*
-google-chrome*
-gthumb*
-gtk-2.0*
-gtk-3.0*
-htop*
-kicad*
-libfm*
-neofetch*
-pcmanfm*
-pulse*
-Thunar*
-xfce4*
-xsettingsd*
+/*
 
-# Files #
-mimeapps.list
-pavucontrol.ini
+# folders
+!alacritty
+!dunst
+!fish
+!omf
+!qtile
+!rofi
+!termite
+!volumeicon
+# files
+!starship.toml
+!.gitignore
