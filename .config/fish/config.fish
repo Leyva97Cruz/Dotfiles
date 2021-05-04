@@ -7,6 +7,9 @@ alias cat="bat --paging never"
 alias ls="exa --group-directories-first --icons --git -h"
 alias tree "exa -T"
 
+# alias for emacs in the terminal
+alias emacs "emacs -nw"
+
 # Agnoster
 
 set -g theme_display_user yes

@@ -5,7 +5,7 @@ setxkbmap latam &
 feh --bg-fill /home/aaron/.Wallpapers/02.png &
 
 # Automount USB
-udiskie -t &
+#udiskie -t &
 
 #Wifi Manager
 nm-applet &
