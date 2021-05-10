@@ -36,3 +36,5 @@ starship init fish | source
 # ghcup-env
 set -q GHCUP_INSTALL_BASE_PREFIX[1]; or set GHCUP_INSTALL_BASE_PREFIX $HOME
 test -f /home/aaron/.ghcup/env ; and set -gx PATH $HOME/.cabal/bin /home/aaron/.ghcup/bin $PATH
+
+./fm6000 -f wolf.txt -n -m 8 -c random

@@ -67,9 +67,9 @@ primary_widgets = [
 
     separator(),
 
-    powerline('color4', 'dark'),
+    powerline('color1', 'dark'),
 
-    widget.Systray(background=colors['color4'], padding=5),
+    widget.Systray(background=colors['color1'], padding=5),
 #    icon(bg="color4", text=' '), # Icon: nf-fa-download
     
 #    widget.CheckUpdates(
@@ -83,25 +83,25 @@ primary_widgets = [
 #        custom_command = 'checkupdates',
 #    ),
 
-    powerline('color3', 'color4'),
+    powerline('color2', 'color1'),
 
-    icon(bg="color3", text=' '),  # Icon: nf-fa-feed
+    icon(bg="color2", text=' '),  # Icon: nf-fa-feed
     
-    widget.Net(**base(bg='color3'), interface='wlp3s0'),
+    widget.Net(**base(bg='color2'), interface='wlp3s0'),
 
-    powerline('color2', 'color3'),
+    powerline('color3', 'color2'),
 
-    widget.CurrentLayoutIcon(**base(bg='color2'), scale=0.65),
+    widget.CurrentLayoutIcon(**base(bg='color3'), scale=0.65),
 
-    powerline('color1', 'color2'),
+    powerline('color4', 'color3'),
 
-    icon(bg="color1", fontsize=17, text=' '), # Icon: nf-mdi-calendar_clock
+    icon(bg="color4", fontsize=17, text=' '), # Icon: nf-mdi-calendar_clock
 
-    widget.Clock(**base(bg='color1'), format='%d/%m/%Y - %I:%M %p'),
+    widget.Clock(**base(bg='color4'), format='%d/%m/%Y - %I:%M %p'),
 
-    powerline('color4', 'color1'),
+    powerline('color1', 'color4'),
 
-    widget.Volume(**base(bg='color4')),
+    widget.Volume(**base(bg='color1')),
 
 ]
 
